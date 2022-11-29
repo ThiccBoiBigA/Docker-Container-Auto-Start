@@ -42,4 +42,4 @@ while i != "Docker Desktop.exe":
 if dockerRunning == True:
     print("Starting command line args")
     time.sleep(1)
-    os.system('cmd /c "docker run -d -e AUDIOBOOKSHELF_UID=99 -e AUDIOBOOKSHELF_GID=100 -p 13378:80 -v E:\Media\AudioBookShelf\Config:/config -v E:\Media\AudioBookShelf\Metadata:/metadata -v E:\Media\AudioBookShelf\Audiobooks:/audiobooks -v E:\Media\AudioBookShelf\Podcasts:/podcasts --name audiobookshelf --rm ghcr.io/advplyr/audiobookshelf & docker restart documents-mariadb-1 & docker restart documents-photoprism-1"')
+    os.system('cmd /c "INSERT YOUR DOCKER RUN COMMANDS HERE SEPARATED BY & IF THERES MORE THAN ONE"')
